@@ -1,0 +1,16 @@
+Enter student marks in the following format - Name sub1 sub2 sub3
+A 30 40 50
+B 20 10 60
+C 33 56 57
+D 56 78 90
+E 34 67 80
+F 87 89 85
+G 90 90 99
+H 78 76 73
+I 56 55 55
+J 89 87 83
+Mean for the three subjects is 57.3 64.8 73.2
+Medians for the three subjects are 67.0 77.0 81.5
+Top 0th student is -G
+Top 1th student is -F
+Top 2th student is -J

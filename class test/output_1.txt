@@ -1,0 +1,23 @@
+
+C:\Users\user\Desktop>python Q1.py
+Hello World! I'm Bhavana. I like to dance.This is a test.This is going to work.
+The paragraph entered is -
+------------------------------------------------
+Hello World! I'm Bhavana. I like to dance.This is a test.This is going to work.
+------------------------------------------------
+The number of vowels in the paragraph are 81
+The number of uppercases in the paragraph are 25
+The number of lowercases in the paragraph are 177
+The number of special characters in the paragraph are 14
+The repeating words in the paragraph are the following -
+-->21 times
+I-->2 times
+to-->2 times
+Paragraph after removing all the special charaters is -
+--------------------------------------------------------------
+Hello World  I m Bhavana  I like to dance UST Global specializes in Healthcare  Retail   Consumer Goods  Banking   Financial Services  Telecom  Media   Technology  Insurance  Transportation   Logistics and Manufacturing   Utilities  This is going to work
+The paragraph after swapping first and last sentence is -
+----------------------------------------------------------
+  I like to dance UST Global specializes in Healthcare, Retail & Consumer Goods, Banking & Financial Services, Telecom, Media & Technology, Insurance, Transportation & Logistics and Manufacturing & Utilities. This is going to work Hello World! I'm Bhavana
+
+C:\Users\user\Desktop>

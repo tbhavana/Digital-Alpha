@@ -1,0 +1,16 @@
+
+C:\Users\user\Desktop>python Q5.py
+FREQUENCY DISTRIBUTION
+-----------------------
+RANGE        COUNT
+(11.94, 11.97)   6
+(11.9, 11.93)   2
+(11.86, 11.89)   2
+(11.98, 12.01)   5
+(12.1, 12.13)   1
+-------------------------
+Mean = 11.958749999999998
+Median = 11.95
+Mode = 11.94
+
+C:\Users\user\Desktop>
