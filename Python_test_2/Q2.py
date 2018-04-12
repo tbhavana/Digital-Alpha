@@ -5,6 +5,11 @@ import pandas as pd
 names = pd.read_csv("input_for_q2.csv",names=['Name','age','gender','height','weight'])
 print(names)
 
+#Sorting according to height
+df = names.sort_values('height')
+print(df)
+
+#Calculating BMI
 names['BMI'] = (names['weight'])/((names['height']*0.01)**2)
 print(names)
 
