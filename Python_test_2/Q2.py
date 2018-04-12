@@ -2,8 +2,6 @@ import numpy as np
 import operator
 import pandas as pd
 
-f = open('input_for_q2.txt','r')
-
 names = pd.read_csv("input_for_q2.csv",names=['Name','age','gender','height','weight'])
 print(names)
 
