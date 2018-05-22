@@ -8,6 +8,10 @@ from bokeh.palettes import Viridis6 as palette
 from bokeh.layouts import widgetbox,column,row
 from bokeh.models.widgets import Select 
 
+#########################################################################################################
+#Total sales graph. Takes year and month as arguments and returns total sales of that month in that year.
+#########################################################################################################
+
 def graph_tab(data):
     def f(data,year,month):
         recent = data[(data['year']==year) & (data['month']==month)]
@@ -45,7 +49,7 @@ def graph_tab(data):
     menu1 = Select(title="Year", value="2017", options=['2017','2016','2015','2014'])
     menu2 = Select(title="Month", value="Dec",options=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'])
 
-
+    # calls this function when the dropdown values are changed.
     def callback(attr,old,new):
         month_num = {'Jan':1,'Feb':2,'Mar':3,'Apr':4,'May':5,'Jun':6,'Jul':7,'Aug':8,'Sep':9,'Oct':10,'Nov':11,'Dec':12}
         year = int(menu1.value)
