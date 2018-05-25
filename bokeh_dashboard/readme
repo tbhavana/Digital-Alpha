@@ -1,1 +1,10 @@
+#Bokeh Dashboard
+
+An interactive dashboard with graphs that automatically update based on the inputs given.
+
+To run the dashboard:
+1. 'Bokeh' package for python needs to be installed.
+2.  On the command prompt, go the directory where the folder is downloaded (maybe: cd Downloads/)
+3.  Then run the command *"bokeh serve --show dashboard/"*
+
 
