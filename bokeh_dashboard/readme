@@ -5,9 +5,9 @@ An interactive dashboard with graphs that automatically update based on the inpu
 To run the dashboard:
 1. 'Bokeh' package for python needs to be installed.
 2.  On the command prompt, go the directory where the folder is downloaded (maybe: cd Downloads/)
-3.  Then run the command "bokeh serve --show dashboard/"
+3.  Then run the command "bokeh serve --show bokeh_dashboard/"
 
-This should open window in the browser at localhost:5006/dashboard
+This should open window in the browser at localhost:5006/bokeh_dashboard
 
 tab1 = Total sales of the retail store in the selected year and month
 tab2 = State wise total sales of the store in a given year
